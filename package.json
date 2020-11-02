@@ -1,0 +1,28 @@
+{
+  "name": "linkapi-test",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "author": "Luis Durante <luisdurante2@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "integration": "node ./src/integration/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "js2xmlparser": "^4.0.1",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-standard": "^16.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "nodemon": "^2.0.6"
+  }
+}
