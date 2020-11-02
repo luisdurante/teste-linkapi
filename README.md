@@ -9,3 +9,5 @@ O teste consiste em criar uma integração entre as plataformas Pipedrive e Blin
 	 >  GET - localhost:3000/aggregatedDeals
 
 No momento, já existem cadastrados três "Negócios" agregados para ter uma pré visualização.
+
+OBS: adicionar o arquivo .env eviado por email com as credenciais necessárias
